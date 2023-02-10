@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Collage Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React web-application that requests photo data from JSONPlaceholder and creates collages from that data.
 
-## Available Scripts
+## Homepage
 
-In the project directory, you can run:
+Upon loading the page, the user will see a header title and input boxes that ask for collage dimensions.
 
-### `npm start`
+![cg v1](https://user-images.githubusercontent.com/13879568/218158481-cd17c53c-b3aa-43d2-bc04-51579e32022e.PNG)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Generating a Collection of Collages
 
-### `npm test`
+The user can input the number of rows, columns, and amount of collages that they want to see displayed on each page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Upon clicking on the "Set Quilt Data" button, the images will be rendered on the webpage.
 
-### `npm run build`
+![cg v2](https://user-images.githubusercontent.com/13879568/218158769-c5121254-b558-44e6-a283-2311d8c76947.PNG)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Navigating to other pages
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+At the bottom of the webpage, the user can see buttons that will allow them to navigate to other collages.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![cg v3](https://user-images.githubusercontent.com/13879568/218158880-454a7c59-86b8-45b9-a401-d0fdea7fa815.PNG)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Loading another Collection of Collages
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Should the user want another random collection of collages, they can input new data in the input boxes to generate another random set of collages.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![cg v4](https://user-images.githubusercontent.com/13879568/218159031-f8c7df42-0de2-4895-8912-96214d5d9f5c.PNG)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
